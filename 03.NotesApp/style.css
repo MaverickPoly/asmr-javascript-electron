@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* Basic Style */
+body {
+    display: flex;
+    max-width: 800px;
+    margin: 18px auto;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    font-size: 44px;
+    font-weight: 700;
+    background: linear-gradient(to right, red, blue);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 36px;
+}
+
+/* Form Style */
+.form {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 32px;
+
+    input {
+        flex: 1;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #bbb;
+        font-size: 17px;
+    }
+    .btn {
+        padding: 10px 22px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        background: red;
+        color: white;
+    }
+    .btn:hover {
+        background: #ce0000;
+    }
+}
+
+/* Table Style */
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    width: 100%;
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: dodgerblue;
+}
+
+tr, th, td {
+    border: 1px solid #aaa;
+}
+
+.btn-delete {
+    padding: 3px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    color: white;
+    background: orangered;
+    cursor: pointer;
+}
+
+
