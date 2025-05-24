@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(to right, purple, dodgerblue);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-size: 17px;
+        background: white;
+        border-radius: 6px;
+    }
+    input:focus {
+        border-color: #aaa;
+    }
+
+    button {
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px 22px;
+        border-radius: 6px;
+        background: #af00af;
+        color: white;
+    }
+    button:hover {
+        background: purple;
+    }
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+
+    .city {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .temp {
+        font-size: 55px;
+        color: green;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        font-size: 35px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        p {
+            display: flex;
+            gap: 4px;
+            font-size: 18px;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+

@@ -4,7 +4,7 @@
 
 ## Projects
 1. **Hello World App**
-   A simple "Hello, World!" Electron app to get started with the basics of Electron.
+   A simple "Hello, World!" Electron app to get started with the basics of Electron.    
 2. **Simple Counter**
    Create a simple Counter app, where you can increment and decrement counter.
 3. **Notes app**
