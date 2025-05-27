@@ -1,0 +1,68 @@
+html {
+    --bg: #222;
+    --yellow: #d8a420;
+    --btn-border: 3px solid white;
+    --btn-border2: 1px solid white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: var(--bg);
+    color: var(--yellow);
+}
+
+body {
+    font-family: cursive;
+    min-height: 100vh;
+    width: 100%;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--yellow);
+    padding: 10px;
+    align-items: center;
+
+    .emoji {
+        font-size: 120px;
+        margin-bottom: 30px;
+    }
+
+    .joke-content {
+        color: black;
+        font-size: 24px;
+        letter-spacing: 3px;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    .btn {
+        background: var(--bg);
+        color: var(--yellow);
+        font-size: 20px;
+        padding: 8px;
+        border-radius: 2px;
+        cursor: pointer;
+        border-top: var(--btn-border);
+        border-left: var(--btn-border);
+        border-bottom: var(--btn-border2);
+        border-right: var(--btn-border2);
+    }
+    .btn:active {
+        border-top: var(--btn-border2);
+        border-left: var(--btn-border2);
+        border-bottom: var(--btn-border);
+        border-right: var(--btn-border);
+    }
+}
